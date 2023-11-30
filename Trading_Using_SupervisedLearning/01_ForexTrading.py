@@ -1,6 +1,6 @@
 """
 Input feature: technical indicators
-Period: 200 days
+Period: 500 days
 Target label: peaks and troughs
 predict the trend of the SGD/CNY
 """
