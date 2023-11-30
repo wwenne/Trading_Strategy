@@ -3,14 +3,33 @@
 - These trading strategies are self-practice and to enhance my understanding about the different kinds of trading systems.
 
 ### Table of Content
-- [Technical Anlysis](#Technical-Anlysis)
-- [Machine Learning](#Machine-Learning)
+- [Results of the Strategies](#Results)
+  - [The results tabel of strategies](#Results-Table)
+  - [The explanation of different strategies](#Explanations-of-strategies)
+
 - [FAQ](#faq)
     - [What is my Trading Strategy?](#what-is-my-Trading-Strategy)
     - [What includes these strategies?](#what-includes-a-strategy)
     - [How to test a strategy?](#how-to-test-a-strategy)
     - [How to create/optimize a strategy?](#how-to-optimize-a-strategy)
 
+## Results
+
+We assume that the initial capital is 10000 dollors and the invest period is 500 days, also each time the trading commission fee is 5 dollors. The based on the strategy, we get the results by executing our own strategy.
+
+### Results table
+
+| Strategy             | Shapre ratio | CAGR % | MAX net-drawdown % | Longest drawdown | Final Account |
+|----------------------|--------------|--------|--------------------|------------------|---------------|
+| [01 Forex Trading](https://github.com/wwenne/Trading_Strategy/blob/main/Trading_Using_SupervisedLearning/01_ForexTrading.py) | 2.0370       | 15.57  | 0.0244             |  48              | 103114.04     |
+                
+
+### Explanation of strategies
+
+**01 Forex Trading**
+- Target asset: GBP/USD forex price
+- Method: Supervised Learning 
+- Model: `Ridge`
 
 ## FAQ
 
