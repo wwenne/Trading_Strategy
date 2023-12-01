@@ -3,12 +3,12 @@
 - These trading strategies are self-practice and to enhance my understanding about the different kinds of trading systems.
 
 ### Table of Content
-- [Results of the Strategies](#Results)
-  - [The results tabel of strategies](#Results-Table)
-  - [The explanation of different strategies](#Explanations-of-strategies)
+- [Results of the Strategies](#results)
+  - [The results tabel of strategies](#results-table)
+  - [The explanation of different strategies](#explanation-of-strategies)
 
 - [FAQ](#faq)
-    - [What is my Trading Strategy?](#what-is-my-Trading-Strategy)
+    - [What is my Trading Strategy?](#what-is-my-trading-strategy)
     - [What includes these strategies?](#what-includes-a-strategy)
     - [How to test a strategy?](#how-to-test-a-strategy)
     - [How to create/optimize a strategy?](#how-to-optimize-a-strategy)
@@ -17,19 +17,24 @@
 
 We assume that the initial capital is 10000 dollors and the invest period is 500 days, also each time the trading commission fee is 5 dollors. The based on the strategy, we get the results by executing our own strategy.
 
-### Results table
+### Results Table
 
-| Strategy             | Shapre ratio | CAGR % | MAX net-drawdown % | Longest drawdown | Final Account |
-|----------------------|--------------|--------|--------------------|------------------|---------------|
-| [01 Forex Trading](https://github.com/wwenne/Trading_Strategy/blob/main/Trading_Using_SupervisedLearning/01_ForexTrading.py) | 2.0370       | 15.57  | 0.0244             |  48              | 103114.04     |
-                
+|                                                           Strategy                                                           | Shapre ratio | CAGR % | MAX net-drawdown % | Longest drawdown | Final Account | Buy&Hold Account |
+|:----------------------------------------------------------------------------------------------------------------------------:|:------------:|-------:|:------------------:|:----------------:|:-------------:|:----------------:|
+| [01 Forex Trading](https://github.com/wwenne/Trading_Strategy/blob/main/Trading_Using_SupervisedLearning/01_ForexTrading.py) |    2.0370    |  15.57 |       0.0244       |        48        |   103114.04   |     98351.30     |
+|        [02 TA RSI_MACD](https://github.com/wwenne/Trading_Strategy/blob/main/Technical_Analysis/02_TA_RSI%26MACD.py)         |    0.9007    |  28.28 |       0.2005       |       142        |   140558.63   |    116838.24     |           
 
-### Explanation of strategies
+### Explanation of Strategies
 
 **01 Forex Trading**
 - Target asset: GBP/USD forex price
 - Method: Supervised Learning 
 - Model: `Ridge`
+
+**02 TA MACD_RSI**
+- Target asset: "GOOG"
+- Method: Technical Analysis 
+- Indicators: `MACD & RSI`
 
 ## FAQ
 
