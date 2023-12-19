@@ -22,15 +22,16 @@ We assume that the initial capital is 10000 dollors and the invest period is 500
 ##### Technical Analysis
 
 |                                                           Strategy                                                            | Shapre ratio | CAGR % | MAX net-drawdown % | Longest drawdown | Final Account | Buy&Hold Account |
-|:-----------------------------------------------------------------------------------------------------------------------------:|:------------:|-------:|:------------------:|:----------------:|:-------------:|:----------------:|
-|         [01 TA RSI_MACD](https://github.com/wwenne/Trading_Strategy/blob/main/Technical_Analysis/01_TA_RSI%26MACD.py)         |    0.9007    |  28.28 |       0.2005       |       142        |   140558.63   |    116838.24     |           
-| [02 TA MeanReversion_SMA](https://github.com/wwenne/Trading_Strategy/blob/main/Technical_Analysis/02_TA_MeanReversion_SMA.py) |    0.8695    |  28.79 |       0.6912       |        50        |   140834.71   |    120102.93     |
+|:-----------------------------------------------------------------------------------------------------------------------------:|:------------:|:------:|:------------------:|:----------------:|:-------------:|:----------------:|
+|         [01 TA RSI_MACD](https://github.com/wwenne/Trading_Strategy/blob/main/Technical_Analysis/01_TA_RSI%26MACD.py)         |    0.9007    | 28.28  |       20.05        |       142        |   140558.63   |    116838.24     |           
+| [02 TA MeanReversion_SMA](https://github.com/wwenne/Trading_Strategy/blob/main/Technical_Analysis/02_TA_MeanReversion_SMA.py) |    0.8695    | 28.79  |       69.12        |        50        |   140834.71   |    120102.93     |
+| [03 TA BollingerBand](https://github.com/wwenne/Trading_Strategy/blob/main/Technical_Analysis/03_TA_BollingerBand.py) |    1.209     | 26.09  |       18.54        |       162        |   137034.66   |    116124.94     |
 
 ##### Machine Learning -- Supervised Learning
 
 |                                                           Strategy                                                           | Shapre ratio | CAGR % | MAX net-drawdown % | Longest drawdown | Final Account | Buy&Hold Account |
-|:----------------------------------------------------------------------------------------------------------------------------:|:------------:|-------:|:------------------:|:----------------:|:-------------:|:----------------:|
-| [01 Forex Trading](https://github.com/wwenne/Trading_Strategy/blob/main/Trading_Using_SupervisedLearning/01_ForexTrading.py) |    2.0370    |  15.57 |       0.0244       |        48        |   103114.04   |     98351.30     |
+|:----------------------------------------------------------------------------------------------------------------------------:|:------------:|:------:|:------------------:|:----------------:|:-------------:|:----------------:|
+| [01 Forex Trading](https://github.com/wwenne/Trading_Strategy/blob/main/Trading_Using_SupervisedLearning/01_ForexTrading.py) |    2.0370    | 15.57  |       0.0244       |        48        |   103114.04   |     98351.30     |
 
 
 
@@ -45,6 +46,11 @@ _02 TA MeanReversion SMA_
 - Target asset: "AMZN"
 - Method: Technical Analysis 
 - Indicators: `SMA`(Mean Reversion)
+
+_03 TA Bollinger Band_
+- Target asset: "GOOG"
+- Method: Technical Analysis 
+- Indicators: `Bollinger Band`
 
 ##### Machine Learning -- Supervised Learning
 _01 Forex Trading_
